@@ -34,9 +34,8 @@ Each functionality is mapped to a node in the LangGraph state machine, orchestra
 
 ## 🚀 Try it Now
 
-Click the badge below to open the notebook in Google Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/your-notebook.ipynb)
+Open Google Colab ( or any other platform you are using ); upload and run the attached code.
+Use AI Assistant ( Gemini, CoPilot, ChatGPT etc.) for run time debugging and enhancing the code for your requirements.
 
 
 ## 📈 Architecture Overview
