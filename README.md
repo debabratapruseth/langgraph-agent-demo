@@ -2,6 +2,8 @@
 
 This is a LangGraph-based, AI-driven assistant prototype designed to help users plan workshops and meetings based on live weather data, document analysis, and AI-generated content — all within an interactive Colab notebook.
 
+---
+
 ## Features
 
 - **Conversational Interface** with limited memory (LangChain Memory)
@@ -12,6 +14,8 @@ This is a LangGraph-based, AI-driven assistant prototype designed to help users 
 - **City Extraction from PDFs**
 - **Workshop/Event Recommendations** based on weather
 - **Multi-agent Controller** using LangGraph state machine
+
+---
 
 ## System Workflow
 
@@ -24,6 +28,8 @@ This is a LangGraph-based, AI-driven assistant prototype designed to help users 
 
 Each functionality is mapped to a node in the LangGraph state machine, orchestrated via user intent.
 
+---
+
 ## Tech Stack
 
 - `LangChain`, `LangGraph`
@@ -31,11 +37,15 @@ Each functionality is mapped to a node in the LangGraph state machine, orchestra
 - `FAISS`, `PyMuPDF`, `OpenAIEmbeddings`
 - `Weather API`
 - `Google Colab`
+  
+---
 
 ##  Try it Now
 
 Open Google Colab ( or any other platform you are using ); upload and run the attached code.
 Use AI Assistant ( Gemini, CoPilot, ChatGPT etc.) for run time debugging and enhancing the code for your requirements.
+
+---
 
 
 ##  Architecture Overview
@@ -49,6 +59,8 @@ The system follows a state-machine architecture enabled by LangGraph. Each node 
 
 This design enables extensibility and clean orchestration of complex AI workflows.
 
+---
+
 ##  Future Improvements
 
 - Add a **Gradio/Streamlit UI** for non-technical users
@@ -56,7 +68,22 @@ This design enables extensibility and clean orchestration of complex AI workflow
 - Upgrade to a **paid weather API** for forecasting capabilities
 - Implement **alternate city suggestions** based on weather conditions
 
+---
+
 
 ##  License
 
 This project is open-source under the [MIT License](LICENSE).
+
+
+---
+
+# Blog Post
+
+Blog URL : https://debabratapruseth.com/agentic-ai-for-beginners-learn-by-building-your-first-app/
+
+Website : https://debabratapruseth.com/
+
+---
+
+👋 If you find this helpful, don't forget to ⭐ the repo and follow for more beginner-friendly AI projects!
